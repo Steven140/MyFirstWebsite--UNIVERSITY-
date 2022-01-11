@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport"  content="with=device-width, initial-scale=1.0">
+        <title>Courses</title>
+        <style>
+              /*----------course------*/
+              .course{
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                padding-top: 100px;
+            }
+
+            h1{
+                font-size: 40px;
+                font-weight: 600;
+            }
+
+            p{
+                color: #777;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+                padding: 0;
+
+            }
+
+            .row{
+                color: rgb(24, 11, 11);
+                margin-top: 5%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .course-col{
+                flex-basis: 31%;
+                background: #fff3f3;
+                border-radius: 10px;
+                margin-bottom: 5%;
+                padding: 20px 12px;
+                box-sizing: border-box;
+                transition: 0.5s;
+            }
+
+            h3{
+                text-align: center;
+                font-weight: 600;
+                margin: 10px 0;
+            }
+
+            .course-col:hover{
+                box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+            }
+
+            @media(max-width: 700px){
+                .row{
+                    flex-direction: column;
+                }
+            }
+
+                       /*----------facilities--------*/
+                       .facilities{
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                padding-top: 100px;
+            }
+
+            .facilities-col{
+                flex-basis: 31%;
+                border-radius: 10px;
+                margin-bottom: 5%;
+                text-align: left;
+            }
+
+            .facilities-col img{
+                width: 100%;
+                border-radius: 10px;
+            }
+
+            .facilities-col p{
+                padding: 0;
+            }
+
+            .facilities-col h3{
+                margin-top: 16px;
+                margin-bottom: 15px;
+                text-align: left;
+            }
+
+            /*----footer--*/
+            .footer{
+            
+            height: 50vh;
+            width: 100%;
+            background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(grad.jpg);
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            color: #fff;
+            width: 100%;
+            padding: 30px 0;
+        }
+
+        .footer h4{
+            font-size: 70px;
+        }
+
+
+
+        .footer img{
+            width: 100px;
+        }
+
+        .icons h3{
+                
+                padding-top: 70px;
+                align-items: center;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            .icons{
+                padding-top: 20px;
+                text-align:center;
+                align-items: center; 
+            }
+
+            .hero-btn{
+                display: inline-block;
+                text-decoration: none;
+                color: lavender;
+                border: 1px solid #fff;
+                padding: 12px 34px;
+                font-size: 14px;
+                background: transparent;
+                cursor: pointer;
+            }
+
+            .hero-btn:hover{
+                border: 1px;
+                background: #f44336;
+                transition: 1s;
+
+            }
+
+
+        
+
+        </style>
+        </head>
+        <body>
+
+            <section class="footer">
+                <img src="images.png">
+                <h4>Courses</h4>
+            </section>
+
+
+        <!--------------------COURSES WE OFFER------------------->
+<section class="course">
+    <h1>Courses We Offer:</h1>
+    <p>Check the list of courses we offer . </p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Language Institute</h3>
+            <p>English, Japanese, Chinese, Korean, French, Dutch  </p>
+        </div>
+        <div class="course-col">
+            <h3>Undergraduate</h3>
+            <p>Architecture, Literature, Computer Science, Artificial Intelligence, Micro-biology, Physics, Chemistry </p>
+        </div>
+        <div class="course-col">
+            <h3>Graduate(M.S/M.A)</h3>
+            <p>Architecture, Literature, Computer Science, Artificial Intelligence, Micro-biology, Physics, Chemistry   </p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduate</h3>
+            <p>Computer Science, Literature ,Architecture </p>
+        </div>
+    </div>
+    </section>
+
+<!-------------Facilities------------->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Take a look at our facilities. </p>
+
+    <div class="row">
+
+        <div class="facilities-col">
+            <img src="lib.jpg">
+            <h3>World Class Library</h3>
+            <p>Books of all subjects and other novels, workbooks and magazines available.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="cafe.png">
+            <h3>Cafeteria</h3>
+            <p>All sorts of snacks and drinks (non-alcoholic) available.</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="ground.jpg">
+            <h3>Basketball Court</h3>
+            <p>Take a break from studies and get some exercise.</p>
+        </div>
+
+    </div>
+    <div class="icons">
+        <h3>Connect To Us :</h3>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <i class='fa fa-facebook-f' style='font-size:20px;color:red'></i>
+        <i class="fa fa-instagram" style="font-size:20px;color:red"></i>
+        <i class="fa fa-linkedin" style="font-size:20px;color:red"></i>
+        <p>Any queries, mail us on kyotouni@gmail.com OR call on +88454343345 </p>
+    </div>
+</section>
+
+    </body>
+</html>
